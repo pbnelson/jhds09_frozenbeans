@@ -25,5 +25,6 @@ Fortunately for us, the study authors generously posted their [raw data](http://
 
 Links
 =====
-- [A 'Frozen Coffee Beans' Data-Exploration App, in Shiny](https://pbnelson.shinyapps.io/frozenbeans/)
+- [A "Frozen Coffee Beans" Data-Exploration App, in Shiny](https://pbnelson.shinyapps.io/frozenbeans/)
 - _[The original research source](http://www.home-barista.com/store-coffee-in-freezer.html)_
+
