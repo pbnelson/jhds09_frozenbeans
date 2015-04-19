@@ -1,37 +1,30 @@
-frozenbeans
+Frozen Coffee Beans, a data exploration tool
 ========================================================
 author: Peter Nelson
 date:   2015-04-19
 
-First Slide
-========================================================
+Background
+==========
+In 2007, Ken Fox from Home-Barista.com, commenced [a carefully designed study](http://www.home-barista.com/store-coffee-in-freezer.html) to answer that question. They performed a series of 64 blind taste tests between espresso made from frozen coffee beans versus espresso made from coffee beans never frozen but otherwise prepared precisely the same way.<br>
+<br>
+For the 64 different blind taste test trials they varied five features: the taster, the length of time the beans were in the freezer, the length of time the beans were out of the freezer/roaster, the espresso machine type, and the grinder
+burrs.<br>
+<br>
+They rated each espresso three ways: overall quality, crema quality, and flavor strength. The rating was one a scale of -3 to +3, for espresso being very much worse to very much better when made from frozen beans versus never-frozen beans.
 
-For more details on authoring R presentations click the
-**Help** button on the toolbar.
+The Problem
+===========
+The authors presented five pages of explanation as to their test methodology, but concluded rather anti-climactically with a few cryptic charts and a conclusion that there is no stastically significant (anova) difference. Leaving us wondering if more could be said, or discovered.
 
-- Bullet 1
-- Bullet 2
-- Bullet 3
+[![original chart](original_chart.png)](http://www.home-barista.com/store-coffee-in-freezer-details.html/)
 
-Slide With Code
-========================================================
+The Solution
+============
+Fortunately for us, the study authors generously posted their [raw data](http://www.home-barista.com/store-coffee-in-freezer-details.html) in the original study. This has been loaded into R, and a Shiny App has been built to allow your personal exploration. Some of the "interesting results", hinted at by the study's authors, are discoverable.
 
+[![app screenshot](appscreenshot.png)](https://pbnelson.shinyapps.io/frozenbeans/)
 
-```r
-summary(cars)
-```
-
-```
-     speed           dist       
- Min.   : 4.0   Min.   :  2.00  
- 1st Qu.:12.0   1st Qu.: 26.00  
- Median :15.0   Median : 36.00  
- Mean   :15.4   Mean   : 42.98  
- 3rd Qu.:19.0   3rd Qu.: 56.00  
- Max.   :25.0   Max.   :120.00  
-```
-
-Slide With Plot
-========================================================
-
-![plot of chunk unnamed-chunk-2](frozenbeans-figure/unnamed-chunk-2-1.png) 
+Links
+=====
+- [The Shiny Data Exploration App](https://pbnelson.shinyapps.io/frozenbeans/)
+- [The original study](http://www.home-barista.com/store-coffee-in-freezer.html)
